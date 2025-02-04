@@ -109,7 +109,7 @@ def load_metadata_to_dataframe(profile_name):
 
 # Main function to execute the workflow
 def main():
-    profile_name = "mistercarwashhq"
+    profile_name = instagram_profile_name
     
     print("Step 1: Downloading Instagram data...")
     download_instagram_data(profile_name)
